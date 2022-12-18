@@ -1,6 +1,5 @@
 <header class="banner sticky top-0 z-50 shadow-sm sm:static sm:shadow-none">
-  <nav class="sticky bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300"
-    aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
+  <nav class="sticky bg-gray-100 text-gray-800" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
     <div class="max-w-9xl mx-auto px-2 sm:px-6 lg:px-8 lg:pt-0">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center md:hidden">
@@ -20,9 +19,8 @@
           </button>
         </div>
         <div class="flex flex-1 flex-shrink-0 items-center justify-center sm:justify-start lg:items-center">
-          <div
-            class="flex flex-shrink-0 items-center transition hover:fill-[rgb(36,63,46)] dark:text-white sm:ml-12 md:ml-0">
-            <a class="group flex max-h-full items-center transition hover:opacity-80 dark:fill-gray-200" href="/">
+          <div class="flex flex-shrink-0 items-center transition hover:fill-[rgb(36,63,46)]">
+            <a class="group flex max-h-full items-center transition hover:opacity-80" href="/">
               <img class="w-32" src="https://sksos.fra1.digitaloceanspaces.com/logo.png" alt=""
                 srcset="">
             </a>
@@ -40,11 +38,11 @@
                 @foreach ($menu_items as $menu_item)
                   @if ($wp->request && strcmp(substr($menu_item->url, 1, -1), $wp->request) === 0)
                     <a href="{{ $menu_item->url }}"
-                      class="whitespace-nowrap rounded bg-gray-100 px-2 py-2 text-center text-sm font-medium transition dark:bg-gray-700"
+                      class="whitespace-nowrap rounded bg-gray-100 px-2 py-2 text-center text-sm font-medium transition"
                       aria-current="page">{{ $menu_item->title }}</a>
                   @else
                     <a href="{{ $menu_item->url }}"
-                      class="whitespace-nowrap rounded px-2 py-2 text-center text-sm font-medium transition hover:bg-gray-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+                      class="whitespace-nowrap rounded px-2 py-2 text-center text-sm font-medium transition hover:bg-gray-200 hover:text-gray-800"
                       aria-current="page">{{ $menu_item->title }}</a>
                   @endif
                 @endforeach
@@ -105,11 +103,11 @@
           @foreach ($menu_items as $menu_item)
             @if ($wp->request && str_contains($menu_item->url, $wp->request))
               <a href="{{ $menu_item->url }}"
-                class="block bg-gray-800 px-3 py-2 text-base font-medium text-white transition dark:bg-gray-700"
+                class="block bg-gray-800 px-3 py-2 text-base font-medium text-white transition"
                 aria-current="page">{{ $menu_item->title }}</a>
             @else
               <a href="{{ $menu_item->url }}"
-                class="dark:hover:text-gray-300transition block px-3 py-2 text-base font-medium text-gray-800 transition hover:bg-gray-700 hover:text-white dark:text-gray-400 dark:hover:bg-gray-800"
+                class="block px-3 py-2 text-base font-medium text-gray-800 transition hover:bg-gray-700 hover:text-white"
                 aria-current="page">{{ $menu_item->title }}</a>
             @endif
           @endforeach
