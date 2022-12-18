@@ -4,16 +4,16 @@
 wordpress_sites:
   sk-sos.kik.cat:
     site_hosts:
-    - canonical: sk-sos.kik.cat
-      redirects: []
+      - canonical: sk-sos.kik.cat
+        redirects: []
     local_path: ../site
-    branch: master
-    repo: git@github.com:example/example.com.git
+    branch: main
+    repo: git@github.com:seenyat/sk-sos.git
     repo_subtree_path: site
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
       enabled: false
