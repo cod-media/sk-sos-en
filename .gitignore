@@ -1,0 +1,9 @@
+/**/.DS_Store
+.vault_pass
+.vagrant
+vagrant.local.yml
+vendor/roles
+*.py[co]
+*.retry
+.trellis/virtualenv
+.trellis/virtualenv2

@@ -1,0 +1,19 @@
+# Created by trellis-cli vcanary
+# Documentation: https://docs.roots.io/trellis/master/wordpress-sites/
+
+wordpress_sites:
+  sk-sos.kik.cat:
+    site_hosts:
+    - canonical: sk-sos.kik.cat
+      redirects: []
+    local_path: ../site
+    branch: master
+    repo: git@github.com:example/example.com.git
+    repo_subtree_path: site
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
