@@ -1,4 +1,5 @@
-import {domReady} from '@roots/sage/client';
+import { domReady } from "@roots/sage/client";
+import { menuListenerSetup } from "./utils/navigation";
 
 /**
  * app.main
@@ -8,6 +9,7 @@ const main = async (err) => {
     // handle hmr errors
     console.error(err);
   }
+  menuListenerSetup();
 
   // application code
 };
