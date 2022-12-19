@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="mx-auto max-w-2xl py-4 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-prose py-4 px-2 sm:py-8 lg:py-12">
     <div class="prose">
       <h1>Обратиться за помощью</h1>
       <p>Если вам или вашим близким угрожает опасность в связи с гендерной или сексуальной идентичности, а также если вы
