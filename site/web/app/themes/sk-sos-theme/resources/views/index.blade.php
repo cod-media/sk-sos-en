@@ -8,7 +8,7 @@
         <p class="flex justify-center text-center font-medium text-white md:text-left">
           <span class="">Предновогодний сбор <span class="hidden md:inline">на подарки подопечным</span></span>
           <span class="ml-2 block sm:inline-block">
-            <a href="#" class="whitespace-nowrap font-bold text-white underline">
+            <a href="/new-year-gifts" class="whitespace-nowrap font-bold text-white underline">
               Подробнее
               <span aria-hidden="true"> &rarr;</span>
             </a>
@@ -35,7 +35,7 @@
             членам их семей, столкнувшимся с опасностью на Северном Кавказе</p>
           <div class="mt-10 flex max-w-sm sm:justify-start">
             <div class="space-y-4 sm:space-y-0">
-              <a href="#"
+              <a href="/help"
                 class="flex items-center justify-center rounded-md border border-transparent bg-[#EC966B] px-4 py-3 text-base font-medium text-white shadow-sm transition hover:bg-[#EC966Bd0] sm:px-8">Поддержать</a>
             </div>
           </div>
@@ -88,8 +88,8 @@
             <h3 class="text-xl font-semibold leading-9 text-black">Кто мы?</h3>
             <p class="mt-2 text-base leading-7 text-gray-700">Команда правозащитников, которая помогает ЛГБТИК+ людям и
               членам их семей, столкнувшимся с опасностью для жизни, преследованиями и насилием на Северном Кавказе.</p>
-            <button type="button"
-              class="mt-4 inline-flex items-center rounded border border-transparent bg-[#e87743] px-6 py-3 text-base font-medium text-white shadow-sm transition hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">Подробнее</button>
+            <a href="/about" type="button"
+              class="mt-4 inline-flex items-center rounded border border-transparent bg-[#e87743] px-6 py-3 text-base font-medium text-white shadow-sm transition hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">Подробнее</a>
           </div>
         </div>
         <div>
@@ -99,13 +99,13 @@
               связи с
               гендерной или сексуальной идентичностью, а также если вы хотите сообщить о нарушении прав человека на
               Северном Кавказе, напишите нам.</p>
-            <button type="button"
+            <a href="/gethelp" type="button"
               class="mt-4 inline-flex items-center rounded border border-transparent bg-[#e87743] px-6 py-3 text-base font-medium text-white shadow-sm transition hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"><svg
                 class="-ml-1 mr-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                 aria-hidden="true">
                 <path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
                 <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
-              </svg>Обратиться</button>
+              </svg>Обратиться</a>
           </div>
         </div>
       </div>
@@ -132,8 +132,8 @@
               смогут вернуться, и навсегда разорвать отношения со своими семьями. Им пришлось начать новую,
               самостоятельную жизнь вдали от дома и столкнуться со всеми ее трудностями.
             </p>
-            <button
-              class="mt-4 w-32 rounded-md bg-[#EC966B] py-3 px-4 font-medium text-white shadow transition hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 focus:ring-offset-gray-900">Помочь</button>
+            <a href='/new-year-gifts'
+              class="mt-4 inline-flex w-32 justify-center rounded-md bg-[#EC966B] py-3 px-4 font-medium text-white shadow transition hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 focus:ring-offset-gray-900">Помочь</a>
           </div>
         </div>
         <div

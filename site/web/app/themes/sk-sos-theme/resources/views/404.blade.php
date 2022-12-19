@@ -117,7 +117,7 @@
             </li>
           </ul>
           <div class="mt-8">
-            <a href="#" class="text-base font-medium text-[#EC966B] hover:opacity-75">
+            <a href="/" class="text-base font-medium text-[#EC966B] hover:opacity-75">
               Вернуться на главную
               <span aria-hidden="true"> &rarr;</span>
             </a>

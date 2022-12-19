@@ -18,7 +18,7 @@
       </div>
     </nav>
     <div class="mt-8 flex justify-center space-x-6">
-      <a href="#" class="text-gray-400 hover:text-gray-500">
+      <a href="https://www.facebook.com/sksosorg" class="text-gray-400 hover:text-gray-500">
         <span class="sr-only">Facebook</span>
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path fill-rule="evenodd"
@@ -27,7 +27,7 @@
         </svg>
       </a>
 
-      <a href="#" class="text-gray-400 hover:text-gray-500">
+      <a href="https://instagram.com/sksosorg" class="text-gray-400 hover:text-gray-500">
         <span class="sr-only">Instagram</span>
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path fill-rule="evenodd"
@@ -36,7 +36,7 @@
         </svg>
       </a>
 
-      <a href="#" class="text-gray-400 hover:text-gray-500">
+      <a href="https://twitter.com/ncsosorg" class="text-gray-400 hover:text-gray-500">
         <span class="sr-only">Twitter</span>
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
@@ -44,7 +44,7 @@
         </svg>
       </a>
 
-      <a href="#" class="text-gray-400 hover:text-gray-500">
+      <a href="https://t.me/sksos.org" class="text-gray-400 hover:text-gray-500">
         <span class="sr-only">Telegram</span>
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -52,7 +52,7 @@
         </svg>
       </a>
 
-      <a href="#" class="text-gray-400 hover:text-gray-500">
+      <a href="https://vk.com/sksosorg" class="text-gray-400 hover:text-gray-500">
         <span class="sr-only">VK</span>
         <svg class="h-6 w-6 fill-gray-400 text-gray-400" fill="currentColor" viewBox="0 0 22 22"
           xmlns="http://www.w3.org/2000/svg">

@@ -6,5 +6,5 @@ module.exports = {
       colors: {}, // Extend Tailwind's default colors
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
