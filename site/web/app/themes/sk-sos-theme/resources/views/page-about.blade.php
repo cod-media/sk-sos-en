@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="bg-white sm:py-4">
-    <div class="mx-auto max-w-3xl rounded bg-white py-16 px-4 sm:py-12 sm:px-6 lg:px-8">
+  <div class="sm:py-4">
+    <div class="mx-auto max-w-3xl rounded py-16 px-4 sm:py-12 sm:px-6 lg:px-8">
       <div class="text-center">
         <div class="mx-auto flex w-full max-w-2xl items-end justify-start border-b pb-4 text-gray-600">
           <h1 class="flex-shrink-0 text-3xl font-bold text-black sm:text-4xl lg:text-5xl">О проекте</h1>
