@@ -10,7 +10,7 @@
       </div> --}}
 
       <div class="px-5 py-2">
-        <a href="/gethelp" class="text-base text-gray-500 hover:text-gray-900">Обратиться за помощью</a>
+        <a href="/gethelp" class="text-base text-gray-500 hover:text-gray-900">Обратиться</a>
       </div>
 
       <div class="px-5 py-2">

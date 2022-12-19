@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="mx-auto max-w-2xl py-4 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-prose px-2 py-4 sm:py-8 lg:py-12">
     <div class="prose">
       <h1>Как помочь? </h1>
       <h2>Сделать пожертвование</h2>
@@ -24,9 +24,11 @@
         Перейти в PayPal
       </a>
       <h2>Crypto</h2>
-      <div class="not-prose">
+      <div class="flex w-full">
 
-        {{-- 
+        <div class="not-prose oveflow-x-auto max-w-full">
+
+          {{-- 
             Bitcoin BTC: bc1qsagw7vmzke9kace9ga4ne3l22vqj3amx5czvde
             Litecoin LTC: ltc1qrh2qk0tenk3czat4hgdpr7as56e6xdavs3ds5d
             Ethereum ETH: 0xf1760f1b880fb001b6C810a84F8b624eede0aEFC
@@ -36,63 +38,64 @@
             Dogecoin (DOGE): DHAUcL7RwyvhpR3vhCfuYeYnbecVrGkwa8
             --}}
 
-        <div class="inline-block min-w-full align-middle">
-          <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
-            <table class="min-w-full divide-y divide-gray-300">
-              <thead class="bg-gray-50">
-                <tr>
-                  <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">
-                    Платфома</th>
-                  <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Адрес</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-gray-200 bg-white">
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Bitcoin BTC
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
-                    bc1qsagw7vmzke9kace9ga4ne3l22vqj3amx5czvde</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Litecoin LTC
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
-                    ltc1qrh2qk0tenk3czat4hgdpr7as56e6xdavs3ds5d</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Ethereum ETH
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
-                    0xf1760f1b880fb001b6C810a84F8b624eede0aEFC</td>
-                </tr>
+          <div class="inline-block max-w-full align-middle">
+            <div class="overflow-x-auto shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+              <table class="min-w-full divide-y divide-gray-300">
+                <thead class="bg-gray-50">
+                  <tr>
+                    <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">
+                      Платфома</th>
+                    <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Адрес</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200 bg-white">
+                  <tr>
+                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Bitcoin BTC
+                    </td>
+                    <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
+                      bc1qsagw7vmzke9kace9ga4ne3l22vqj3amx5czvde</td>
+                  </tr>
+                  <tr>
+                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Litecoin LTC
+                    </td>
+                    <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
+                      ltc1qrh2qk0tenk3czat4hgdpr7as56e6xdavs3ds5d</td>
+                  </tr>
+                  <tr>
+                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Ethereum ETH
+                    </td>
+                    <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
+                      0xf1760f1b880fb001b6C810a84F8b624eede0aEFC</td>
+                  </tr>
 
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Zerocoin ZEC
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
-                    t1cf7bA8gjXc38pQGdd2SmJptnYzXS3Jp22</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Toncoin TON
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
-                    EQBzn9j7Ps1UCPkB2gl8AQUyE7--rOXXYIKY07Tr0IEzzDdm</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">USDT (TRC20)
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
-                    TG3WEYgGyTtt1aMapnGYMxpTpJcs63PUVz</td>
-                </tr>
-                <tr>
-                  <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Dogecoin (DOGE)
-                  </td>
-                  <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
-                    DHAUcL7RwyvhpR3vhCfuYeYnbecVrGkwa8</td>
-                </tr>
+                  <tr>
+                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Zerocoin ZEC
+                    </td>
+                    <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
+                      t1cf7bA8gjXc38pQGdd2SmJptnYzXS3Jp22</td>
+                  </tr>
+                  <tr>
+                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Toncoin TON
+                    </td>
+                    <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
+                      EQBzn9j7Ps1UCPkB2gl8AQUyE7--rOXXYIKY07Tr0IEzzDdm</td>
+                  </tr>
+                  <tr>
+                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">USDT (TRC20)
+                    </td>
+                    <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
+                      TG3WEYgGyTtt1aMapnGYMxpTpJcs63PUVz</td>
+                  </tr>
+                  <tr>
+                    <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Dogecoin (DOGE)
+                    </td>
+                    <td class="whitespace-nowrap px-3 py-4 font-mono text-sm text-gray-500">
+                      DHAUcL7RwyvhpR3vhCfuYeYnbecVrGkwa8</td>
+                  </tr>
 
-              </tbody>
-            </table>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
