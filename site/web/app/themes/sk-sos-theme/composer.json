@@ -39,11 +39,23 @@
     }
   },
   "require": {
-    "php": "^7.4|^8.0"
+    "php": "^7.4|^8.0",
+    "koodimonni-language/ru_ru": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.7.1"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wp-languages.github.io",
+      "only": [
+        "koodimonni-language/*",
+        "koodimonni-plugin-language/*",
+        "koodimonni-theme-language/*"
+      ]
+    }
+  ],
   "suggest": {
     "log1x/sage-directives": "A collection of useful Blade directives for WordPress and Sage (^1.0).",
     "log1x/sage-svg": "A useful SVG directive for inlining SVG's within Blade views (^1.0)."
@@ -64,6 +76,17 @@
     "acorn": {
       "providers": [
         "App\\Providers\\ThemeServiceProvider"
+      ]
+    },
+    "dropin-paths": {
+      "htdocs/wp-content/languages/": [
+        "vendor:koodimonni-language"
+      ],
+      "htdocs/wp-content/languages/plugins/": [
+        "vendor:koodimonni-plugin-language"
+      ],
+      "htdocs/wp-content/languages/themes/": [
+        "vendor:koodimonni-theme-language"
       ]
     }
   }
