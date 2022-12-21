@@ -38,7 +38,7 @@
   args:
     warn: false
 
-- name: Install (and activate) core language ru_RU_formal
-  command: wp language core install ru_RU_formal --activate
+- name: Install (and activate) core language ru_RU
+  command: wp language core install ru_RU --activate
   args:
     chdir: "{{ deploy_helper.current_path }}"
