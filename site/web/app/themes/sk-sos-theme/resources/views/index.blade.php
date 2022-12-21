@@ -2,7 +2,7 @@
 
 @section('content')
   {{-- Event --}}
-  <div class="relative bg-[#228b22]">
+  <div class="relative hidden bg-[#228b22]">
     <div class="mx-auto max-w-7xl py-3 px-2 text-center sm:px-6 md:max-w-none lg:px-8">
       <div class="sm:px-16 sm:text-center md:pr-16">
         <p class="flex justify-center text-center font-medium text-white md:text-left">
@@ -113,7 +113,7 @@
   </div>
 
   {{-- New year event --}}
-  <div class="overflow-hidden bg-gray-900 pt-10 sm:pt-8 lg:pt-4">
+  <div class="hidden overflow-hidden bg-gray-900 pt-10 sm:pt-8 lg:pt-4">
     <div class="mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <div
