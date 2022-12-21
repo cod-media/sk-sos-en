@@ -139,7 +139,7 @@
             </svg>
           </a>
 
-          <a href="https://t.me/sksos.org" class="text-gray-400 hover:text-gray-500">
+          <a href="https://t.me/sksosorg" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Telegram</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path
