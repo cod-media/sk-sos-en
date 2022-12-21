@@ -1,0 +1,4 @@
+- name: Install (and activate) core language ru_RU_formal
+  command: wp language core install ru_RU_formal --activate
+  args:
+    chdir: "{{ deploy_helper.current_path }}"
