@@ -101,7 +101,7 @@
       <div class="space-y-1 px-2 pt-2 pb-3">
         @if (has_nav_menu('primary_navigation'))
           @foreach ($menu_items as $menu_item)
-            @if ($wp->request && str_contains($menu_item->url, $wp->request))
+            @if ($wp->request && strcmp(substr($menu_item->url, 1, -1), $wp->request) === 0)
               <a href="{{ $menu_item->url }}"
                 class="block bg-gray-800 px-3 py-2 text-base font-medium text-white transition"
                 aria-current="page">{{ $menu_item->title }}</a>

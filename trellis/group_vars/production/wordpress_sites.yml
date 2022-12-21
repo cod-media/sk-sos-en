@@ -4,7 +4,7 @@
 wordpress_sites:
   sk-sos.kik.cat:
     site_hosts:
-      - canonical: sk-sos.kik.cat
+      - canonical: sksos.org
         redirects: []
     local_path: ../site
     branch: main
