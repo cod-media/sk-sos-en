@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f730e876ee5811489075d9116ea88f3",
+    "content-hash": "07a13288076437c2e17aa6cc0cf6ea86",
     "packages": [
         {
             "name": "brick/math",
@@ -1229,6 +1229,854 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2022-04-14T13:47:10+00:00"
+        },
+        {
+            "name": "koodimonni-language/ru_ru",
+            "version": "6.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/core/6.1.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni-plugin-language/akismet-ru_ru": "*",
+                "koodimonni-plugin-language/bbpress-ru_ru": "*",
+                "koodimonni-plugin-language/better-code-editing-ru_ru": "*",
+                "koodimonni-plugin-language/blogger-importer-ru_ru": "*",
+                "koodimonni-plugin-language/buddypress-ru_ru": "*",
+                "koodimonni-plugin-language/classic-editor-ru_ru": "*",
+                "koodimonni-plugin-language/classic-widgets-ru_ru": "*",
+                "koodimonni-plugin-language/debug-bar-ru_ru": "*",
+                "koodimonni-plugin-language/design-experiments-ru_ru": "*",
+                "koodimonni-plugin-language/enable-jquery-migrate-helper-ru_ru": "*",
+                "koodimonni-plugin-language/health-check-ru_ru": "*",
+                "koodimonni-plugin-language/hello-dolly-ru_ru": "*",
+                "koodimonni-plugin-language/livejournal-importer-ru_ru": "*",
+                "koodimonni-plugin-language/movabletype-importer-ru_ru": "*",
+                "koodimonni-plugin-language/opml-importer-ru_ru": "*",
+                "koodimonni-plugin-language/press-this-ru_ru": "*",
+                "koodimonni-plugin-language/rss-importer-ru_ru": "*",
+                "koodimonni-plugin-language/stp-importer-ru_ru": "*",
+                "koodimonni-plugin-language/textpattern-importer-ru_ru": "*",
+                "koodimonni-plugin-language/tumblr-importer-ru_ru": "*",
+                "koodimonni-plugin-language/woocommerce-ru_ru": "*",
+                "koodimonni-plugin-language/wordpress-importer-ru_ru": "*",
+                "koodimonni-plugin-language/wp-autoupdates-ru_ru": "*",
+                "koodimonni-plugin-language/wp-jquery-update-test-ru_ru": "*",
+                "koodimonni-plugin-language/wpcat2tag-importer-ru_ru": "*",
+                "koodimonni-theme-language/tt1-blocks-ru_ru": "*",
+                "koodimonni-theme-language/twentyeleven-ru_ru": "*",
+                "koodimonni-theme-language/twentyfifteen-ru_ru": "*",
+                "koodimonni-theme-language/twentyfourteen-ru_ru": "*",
+                "koodimonni-theme-language/twentynineteen-ru_ru": "*",
+                "koodimonni-theme-language/twentyseventeen-ru_ru": "*",
+                "koodimonni-theme-language/twentysixteen-ru_ru": "*",
+                "koodimonni-theme-language/twentyten-ru_ru": "*",
+                "koodimonni-theme-language/twentythirteen-ru_ru": "*",
+                "koodimonni-theme-language/twentytwelve-ru_ru": "*",
+                "koodimonni-theme-language/twentytwenty-ru_ru": "*",
+                "koodimonni-theme-language/twentytwentyone-ru_ru": "*",
+                "koodimonni-theme-language/twentytwentythree-ru_ru": "*",
+                "koodimonni-theme-language/twentytwentytwo-ru_ru": "*",
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Full WordPress translation (including themes and core plugins) for Russian - ru_ru",
+            "keywords": [
+                "Full-Package",
+                "Russian",
+                "Translation",
+                "WordPress",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/akismet-ru_ru",
+            "version": "5.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/akismet/5.0.2/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress akismet translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "akismet",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/bbpress-ru_ru",
+            "version": "2.6.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.6.9/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress bbpress translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "bbpress",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/better-code-editing-ru_ru",
+            "version": "0.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/better-code-editing/0.7.0/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress better-code-editing translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "better-code-editing",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/blogger-importer-ru_ru",
+            "version": "0.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/blogger-importer/0.9.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress blogger-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "blogger-importer",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/buddypress-ru_ru",
+            "version": "9.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/buddypress/9.2.0/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress buddypress translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "buddypress",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/classic-editor-ru_ru",
+            "version": "1.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/1.6.2/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress classic-editor translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "classic-editor",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/classic-widgets-ru_ru",
+            "version": "0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/classic-widgets/0.3/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress classic-widgets translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "classic-widgets",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/debug-bar-ru_ru",
+            "version": "1.1.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/debug-bar/1.1.4/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress debug-bar translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "debug-bar",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/design-experiments-ru_ru",
+            "version": "1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/design-experiments/1.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress design-experiments translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "design-experiments",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/enable-jquery-migrate-helper-ru_ru",
+            "version": "1.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/enable-jquery-migrate-helper/1.3.0/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress enable-jquery-migrate-helper translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "enable-jquery-migrate-helper",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/health-check-ru_ru",
+            "version": "1.5.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/health-check/1.5.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress health-check translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "health-check",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/hello-dolly-ru_ru",
+            "version": "1.7.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/hello-dolly/1.7.2/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress hello-dolly translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "hello-dolly",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/livejournal-importer-ru_ru",
+            "version": "0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/livejournal-importer/0.5/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress livejournal-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "livejournal-importer",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/movabletype-importer-ru_ru",
+            "version": "0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/movabletype-importer/0.4/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress movabletype-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "movabletype-importer",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/opml-importer-ru_ru",
+            "version": "0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/opml-importer/0.2/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress opml-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "opml-importer",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/press-this-ru_ru",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/press-this/1.1.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress press-this translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "press-this",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/rss-importer-ru_ru",
+            "version": "0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/rss-importer/0.3/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress rss-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "rss-importer",
+                "ru_ru"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/stp-importer-ru_ru",
+            "version": "0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/stp-importer/0.2/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress stp-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "stp-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/textpattern-importer-ru_ru",
+            "version": "0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/textpattern-importer/0.2/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress textpattern-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "textpattern-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/tumblr-importer-ru_ru",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/tumblr-importer/1.0/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress tumblr-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "tumblr-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/woocommerce-ru_ru",
+            "version": "7.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/7.2.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress woocommerce translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "woocommerce"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wordpress-importer-ru_ru",
+            "version": "0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wordpress-importer/0.8/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wordpress-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "wordpress-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wp-autoupdates-ru_ru",
+            "version": "0.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-autoupdates/0.8.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wp-autoupdates translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "wp-autoupdates"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wp-jquery-update-test-ru_ru",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-jquery-update-test/2.0.0/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wp-jquery-update-test translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "wp-jquery-update-test"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wpcat2tag-importer-ru_ru",
+            "version": "0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wpcat2tag-importer/0.6/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wpcat2tag-importer translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "wpcat2tag-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/tt1-blocks-ru_ru",
+            "version": "0.4.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/tt1-blocks/0.4.8/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress tt1-blocks translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "tt1-blocks"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyeleven-ru_ru",
+            "version": "4.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyeleven/4.2/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyeleven translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentyeleven"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfifteen-ru_ru",
+            "version": "3.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/3.3/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyfifteen translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentyfifteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfourteen-ru_ru",
+            "version": "3.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/3.5/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyfourteen translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentyfourteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentynineteen-ru_ru",
+            "version": "2.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentynineteen/2.4/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentynineteen translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentynineteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyseventeen-ru_ru",
+            "version": "3.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyseventeen/3.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyseventeen translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentyseventeen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentysixteen-ru_ru",
+            "version": "2.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentysixteen/2.8/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentysixteen translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyten-ru_ru",
+            "version": "3.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyten/3.7/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyten translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentyten"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentythirteen-ru_ru",
+            "version": "3.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/3.7/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentythirteen translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentythirteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwelve-ru_ru",
+            "version": "3.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/3.8/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwelve translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentytwelve"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwenty-ru_ru",
+            "version": "2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwenty/2.1/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwenty translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentytwenty"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwentyone-ru_ru",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwentyone/1.0/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwentyone translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentytwentyone"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwentythree-ru_ru",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwentythree/1.0/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwentythree translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentytwentythree"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwentytwo-ru_ru",
+            "version": "1.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwentytwo/1.3/ru_RU.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwentytwo translations for Russian - ru_ru",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "ru_ru",
+                "twentytwentytwo"
+            ]
+        },
+        {
+            "name": "koodimonni/composer-dropin-installer",
+            "version": "1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
+                "reference": "9596ef8f50cbba2cdc707ca3b1f5e4a0e9fa7e7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/9596ef8f50cbba2cdc707ca3b1f5e4a0e9fa7e7e",
+                "reference": "9596ef8f50cbba2cdc707ca3b1f5e4a0e9fa7e7e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 | ^2.0",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Koodimonni\\Composer\\Dropin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Koodimonni\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni@keksi.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "support": {
+                "issues": "https://github.com/Koodimonni/Composer-Dropin-Installer/issues",
+                "source": "https://github.com/Koodimonni/Composer-Dropin-Installer/tree/1.4"
+            },
+            "time": "2022-02-02T11:42:57+00:00"
         },
         {
             "name": "league/flysystem",

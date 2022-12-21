@@ -1,0 +1,265 @@
+# Translation of Plugins - WordPress Auto-updates - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WordPress Auto-updates - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-10 16:34:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WordPress Auto-updates - Stable (latest release)\n"
+
+#: functions.php:1392
+msgid "Auto-updates can be enabled and disabled on a theme by theme basis. Themes with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates schedule depends on WordPress planned tasks."
+msgstr "Автообновления могут быть включены и отключены для каждой темы. Темы с включенным автообновлением будут отображать приблизительную дату следующего автообновления. Расписание автообновлений зависит от запланированных задач WordPress."
+
+#: functions.php:1375
+msgid "Auto-updates can be enabled and disabled on a plugin by plugin basis. Plugins with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates schedule depends on WordPress planned tasks."
+msgstr "Автообновления могут быть включены и отключены в зависимости от плагина. Плагины с включенным автообновлением будут отображать приблизительную дату следующего обновления. Расписание обновлений зависит от запланированных задач WordPress."
+
+#: functions.php:1367 functions.php:1384 functions.php:1401
+msgid "Auto-updates"
+msgstr "Автоматические обновления"
+
+#: functions.php:1362 functions.php:1379 functions.php:1396
+msgid "For more information: <a href=\"%s\">Documentation about auto-updates</a>"
+msgstr "Для получения дополнительной информации: <a href=\"%s\">Документация об автообновлениях</a>"
+
+#: functions.php:1359 functions.php:1376 functions.php:1393
+msgid "Please note: WordPress auto-updates may be overridden by third-parties plugins or custom code."
+msgstr "Обратите внимание: автообновления WordPress могут быть переопределены сторонними плагинами или пользовательским кодом."
+
+#: functions.php:1358
+msgid "Plugins and Themes with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates schedule depends on WordPress planned tasks."
+msgstr "Плагины и темы с включенным автообновлением будут отображать приблизительную дату следующего автообновления. Расписание обновлений зависит от запланированных задач WordPress."
+
+#: functions.php:1327
+msgid "Invalid data. The item does not exist."
+msgstr "Неверные данные. Элемент отсутствует."
+
+#: functions.php:604 functions.php:618
+msgid "Theme will no longer be auto-updated."
+msgstr "Тема больше не будет обновляться автоматически."
+
+#: functions.php:595 functions.php:614
+msgid "Theme will be auto-updated."
+msgstr "Тема будет обновляться автоматически."
+
+#: functions.php:581
+msgid "Plugin will no longer be auto-updated."
+msgstr "Плагин больше не будет обновляться автоматически."
+
+#: functions.php:579
+msgid "Plugin will be auto-updated."
+msgstr "Плагин будет обновляться автоматически."
+
+#: functions.php:441 functions.php:1251
+msgid "Sorry, you are not allowed to disable themes automatic updates."
+msgstr "К сожалению, вам не разрешено отключить автоматическое обновление тем."
+
+#: functions.php:375
+msgid "Sorry, you are not allowed to disable plugins automatic updates."
+msgstr "К сожалению, вы не можете отключить автоматическое обновление плагинов."
+
+#: functions.php:319
+msgid "Disable Auto-updates"
+msgstr "Выключить автоматические обновления"
+
+#: functions.php:316
+msgid "Enable Auto-updates"
+msgstr "Включить автоматические обновления"
+
+#: functions.php:1298 functions.php:1323
+msgid "Invalid data. Unknown type."
+msgstr "Неверные данные. Неизвестный тип."
+
+#: functions.php:1293
+msgid "Invalid data. Unknown state."
+msgstr "Неверные данные. Неизвестное состояние."
+
+#: functions.php:1287
+msgid "Invalid data. No selected item."
+msgstr "Неверные данные. Нет выбранных элементов."
+
+#: functions.php:126
+msgid "Disabling..."
+msgstr "Отключение..."
+
+#: functions.php:123
+msgid "Enabling..."
+msgstr "Включение…"
+
+#: functions.php:1315
+msgid "You do not have permission to modify themes."
+msgstr "У вас недостаточно прав для изменения тем."
+
+#: functions.php:1305
+msgid "You do not have permission to modify plugins."
+msgstr "У вас недостаточно прав для изменения плагинов."
+
+#: functions.php:128
+msgid "The request could not be completed."
+msgstr "Не удалось завершить запрос"
+
+#: functions.php:585
+msgid "Selected plugins will no longer be auto-updated."
+msgstr "Выбранные плагины больше не будут обновляться автоматически."
+
+#: functions.php:583
+msgid "Selected plugins will be auto-updated."
+msgstr "Выбранные плагины будут обновляться автоматически."
+
+#: functions.php:1041
+msgid "The following themes were successfully updated:"
+msgstr "Следующие темы успешно обновлены:"
+
+#: functions.php:1023
+msgid "The following themes failed to update:"
+msgstr "Следующие темы не удалось обновить:"
+
+#. translators: %s: Site title.
+#: functions.php:989
+msgid "[%s] Some plugins or themes have failed to update"
+msgstr "[%s] Некоторые плагины или темы не удалось обновить"
+
+#. translators: %s: Site title.
+#: functions.php:985 functions.php:1000
+msgid "[%s] Some plugins or themes were automatically updated"
+msgstr "[%s] Некоторые плагины или темы были автоматически обновлены"
+
+#. translators: 1: Theme name. 2: Theme slug.
+#: functions.php:856
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: functions.php:872 functions.php:885
+msgid "Auto-update"
+msgstr "Автоматическое обновление"
+
+#: functions.php:868 functions.php:881
+msgid "Disabled"
+msgstr "Выключено"
+
+#: functions.php:422 functions.php:445
+msgid "Please connect to your network admin to manage themes automatic updates."
+msgstr "Обратитесь к администратору сети для управления автоматическим обновлением тем."
+
+#: functions.php:418 functions.php:1225
+msgid "Sorry, you are not allowed to enable themes automatic updates."
+msgstr "К сожалению, вам не разрешено включить автоматическое обновление тем."
+
+#. translators: Duration that WP-Cron has been overdue.
+#: functions.php:1110
+msgid "There may be a problem with WP-Cron. Automatic update overdue by %s."
+msgstr "Возможна проблема с WP-Cron. Автоматическое обновление просрочено на %s."
+
+#: functions.php:1100
+msgid "WP-Cron is disabled. Automatic updates not available."
+msgstr "WP-Cron отключен. Автоматические обновления недоступны."
+
+#: functions.php:1094
+msgid "There may be a problem with WP-Cron. Automatic update not scheduled."
+msgstr "Возможна проблема с WP-Cron. Автоматическое обновление не запланировано."
+
+#: functions.php:1052
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://ru.wordpress.org/support/forums/"
+
+#: functions.php:1051
+msgid "If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help."
+msgstr "Если вы столкнётесь с проблемами и вам понадобится поддержка, вам помогут волонтёры на форумах WordPress.org."
+
+#: functions.php:1032
+msgid "The following plugins were successfully updated:"
+msgstr "Следующие плагины успешно обновлены:"
+
+#: functions.php:1014
+msgid "The following plugins failed to update:"
+msgstr "Следующие плагины не удалось обновить:"
+
+#: functions.php:996 functions.php:1007
+msgid "Please check out your site now. It’s possible that everything is working. If it says you need to update, you should do so."
+msgstr "Проверьте сейчас свой сайт. Вполне возможно, что всё работает. Если он предложит обновиться, сделайте это:"
+
+#. translators: %s: Home URL.
+#: functions.php:992 functions.php:1003
+msgid "Howdy! Failures occurred when attempting to update plugins/themes on your site at %s."
+msgstr "Привет! Сбой при попытке обновить плагины/темы на вашем сайте в %s."
+
+#: functions.php:127 functions.php:814
+msgid "Auto-updates disabled"
+msgstr "Автоматические обновления отключены"
+
+#. translators: %s: Number of plugins.
+#: functions.php:682
+msgid "Auto-updates Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-updates Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Автоматические обновления отключены <span class=\"count\">(%s)</span>"
+msgstr[1] "Автоматические обновления отключены <span class=\"count\">(%s)</span>"
+msgstr[2] "Автоматические обновления отключены <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of plugins.
+#: functions.php:672
+msgid "Auto-updates Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-updates Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Автоматические обновления включены <span class=\"count\">(%s)</span>"
+msgstr[1] "Автоматические обновления включены <span class=\"count\">(%s)</span>"
+msgstr[2] "Автоматические обновления включены <span class=\"count\">(%s)</span>"
+
+#: functions.php:124 functions.php:813
+msgid "Auto-updates enabled"
+msgstr "Автоматические обновления включены"
+
+#: functions.php:866 functions.php:879
+msgid "Enabled"
+msgstr "Включено"
+
+#: functions.php:244 functions.php:1135
+msgid "Automatic updates"
+msgstr "Автоматические обновления"
+
+#: functions.php:352 functions.php:379 functions.php:482 functions.php:524
+msgid "Please connect to your network admin to manage plugins automatic updates."
+msgstr "Обратитесь к администратору сети для управления автоматическим обновлением плагинов."
+
+#: functions.php:348 functions.php:478 functions.php:520
+msgid "Sorry, you are not allowed to enable plugins automatic updates."
+msgstr "К сожалению, вам не разрешается включить автоматическое обновление плагинов."
+
+#: functions.php:55 functions.php:125 functions.php:277 functions.php:1169
+#: functions.php:1207
+msgid "Disable auto-updates"
+msgstr "Выключить автоматические обновления"
+
+#: functions.php:54 functions.php:122 functions.php:281 functions.php:1173
+#: functions.php:1206
+msgid "Enable auto-updates"
+msgstr "Включить автоматические обновления"
+
+#. translators: Time until the next update.
+#: functions.php:1116
+msgid "Auto-update scheduled in %s."
+msgstr "Автоматическое обновление запланировано в %s."
+
+#. Author URI of the plugin
+msgid "https://wordpress.org"
+msgstr "https://ru.wordpress.org"
+
+#. Author of the plugin
+#: functions.php:1053
+msgid "The WordPress Team"
+msgstr "Команда WordPress"
+
+#. Description of the plugin
+msgid "A feature plugin to integrate Plugins & Themes automatic updates in WordPress Core."
+msgstr "Плагин добавляющий функцию автоматического обновления плагинов и тем в ядро WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wp-autoupdates"
+msgstr "https://ru.wordpress.org/plugins/wp-autoupdates"
+
+#. Plugin Name of the plugin
+msgid "WordPress Auto-updates"
+msgstr "WordPress Auto-updates"
