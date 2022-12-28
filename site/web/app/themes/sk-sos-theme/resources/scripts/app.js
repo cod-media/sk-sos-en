@@ -1,6 +1,6 @@
 import { domReady } from "@roots/sage/client";
 import { menuListenerSetup } from "./utils/navigation";
-
+import { injectLeikaStyles } from "./utils/injectLeika.js"
 /**
  * app.main
  */
@@ -10,6 +10,7 @@ const main = async (err) => {
     console.error(err);
   }
   menuListenerSetup();
+  injectLeikaStyles();
 
   // application code
 };

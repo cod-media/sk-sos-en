@@ -17,6 +17,37 @@ add_action('wp_enqueue_scripts', function () {
     bundle('app')->enqueue();
 }, 100);
 
+/** 
+ * Add OG Images
+ * 
+ * @return void
+ */
+add_action('wp_head', function() {
+    global $wp;
+    $current_url = home_url(add_query_arg(array(), $wp->request));
+
+    if (str_contains($current_url, 'new-year-gifts') !== false) {
+        echo '<!-- Primary Meta Tags -->
+        <meta name="title" content="Предновогодний сбор — Кризисная группа СК SOS">
+        <meta name="description" content="Кризисная группа СК SOS">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://sksos.org/new-year-gifts/">
+        <meta property="og:title" content="Предновогодний сбор — Кризисная группа СК SOS">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="https://sksos.fra1.digitaloceanspaces.com/sos-sbor-og.png">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://sksos.org/new-year-gifts/">
+        <meta property="twitter:title" content="Предновогодний сбор — Кризисная группа СК SOS">
+        <meta property="twitter:description" content="">
+        <meta property="twitter:image" content="https://sksos.fra1.digitaloceanspaces.com/sos-sbor-og.png">
+        '. "\xA";
+    }
+});
+
 /**
  * Register the theme assets with the block editor.
  *

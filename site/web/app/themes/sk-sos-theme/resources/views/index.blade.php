@@ -2,7 +2,7 @@
 
 @section('content')
   {{-- Event --}}
-  <div class="relative hidden bg-[#228b22]">
+  <div class="relative bg-[#228b22]">
     <div class="mx-auto max-w-7xl py-3 px-2 text-center sm:px-6 md:max-w-none lg:px-8">
       <div class="sm:px-16 sm:text-center md:pr-16">
         <p class="flex justify-center text-center font-medium text-white md:text-left">
@@ -56,7 +56,7 @@
       </div>
       <dl class="mt-4 text-center sm:mx-auto sm:grid sm:max-w-3xl sm:grid-cols-3 sm:gap-8">
         <div class="flex flex-col">
-          <dt class="leading-2 order-2 mt-2 text-sm font-medium text-gray-700">людям мы оказали помощь
+          <dt class="leading-2 order-2 mt-2 text-sm font-medium text-gray-700">людям оказали помощь
           </dt>
           <dd class="order-1 text-5xl font-bold tracking-tight text-black">745</dd>
         </div>
@@ -113,7 +113,7 @@
   </div>
 
   {{-- New year event --}}
-  <div class="hidden overflow-hidden bg-gray-900 pt-10 sm:pt-8 lg:pt-4">
+  <div class="overflow-hidden bg-gray-900 pt-10 sm:pt-8 lg:pt-4">
     <div class="mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <div
@@ -121,16 +121,11 @@
           <div class="lg:py-24">
             <h1
               class="mt-4 text-4xl font-bold leading-8 tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-
-              Предновогодний сбор на подарки подопечным
-
+              Сбор на подарки подопечным
             </h1>
-            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">В этом году
-              ребята прошли
-              через тяжелые испытания: большинство пережили домашнее или полицейское насилие, побои и пытки, а их жизни
-              находились под угрозой. Они были вынуждены покинуть места, в которых родились и выросли, зная, что больше не
-              смогут вернуться, и навсегда разорвать отношения со своими семьями. Им пришлось начать новую,
-              самостоятельную жизнь вдали от дома и столкнуться со всеми ее трудностями.
+            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Новый год многие подопечные СК SOS встретят в шелтерах, а двое из них — в заключении. Мы хотим, чтобы ребята знали, что они не одни и их поддерживает много небезразличных людей. 
+
+Здесь можно узнать истории наших подопечных и сделать пожертвование на подарок, который они хотели бы получить. Также вы можете пополнить ФСИН-счета заключенных Салеха Магамадова и Исмаила Исаева или написать им письма.
             </p>
             <a href='/new-year-gifts'
               class="mt-4 inline-flex w-32 justify-center rounded-md bg-[#EC966B] py-3 px-4 font-medium text-white shadow transition hover:bg-opacity-80 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 focus:ring-offset-gray-900">Помочь</a>

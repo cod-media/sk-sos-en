@@ -37,3 +37,4 @@ const applyPaymentStyles = () => {
   // Удаляем карту МИР
   document.querySelectorAll(".card-mir").forEach((el) => el.remove());
 };
+
